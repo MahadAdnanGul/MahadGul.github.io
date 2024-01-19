@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>OpenGL Simulations</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Mahad Gul</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+		
+						</ul>
+						<ul class="icons">
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class ="date">Personal Project</span>
+									<h1>OpenGL Simulations</h1>
+									<p>Created as part of my computer animations course, I used OpenGL and C++ to create a variety of animations and simulations from scratch.</p>
+								</header>
+                                <p>
+									<p class="headingtext">Physics Simulation:</p>
+									I tried to roughly mimic game engine components such as gameobjects, transforms, colliders, rigidbodies for this assignment.<br/>
+                                    I use conservaton of momentum and angular momentum principles to simulate the collisions and adjust the object velocities and angular velocities.<br/>
+                                    My test file spawns a specified number of objects within the bounds at random locations and assigns them a random velocity and angular velocity based on the specified ranges given in the test file along with other physical properties.<br/>
+                                    To show the robustness of my system, I also shoot multiple large and heavy objects via keyboard input during the demo to show how they accurately interact with the environment.<br/>
+								</p>
+                                <a href="https://github.com/MahadAdnanGul/OpenGL-PhysicsSimulation">Github Link</a>
+								<div class="image main video">
+									<iframe width="100%" height="540" src="https://www.youtube.com/embed/EfstA5rHS8Q?si=M6H5bNfv_yLmQxn-" allowfullscreen></iframe>
+								</div>
+                                <p>
+									<p class="headingtext">Boids Flocking Simulation:</p>
+                                    Created a boids flocking simulation in OpenGL and C++ from scratch based on the Reynolds model. <br/>
+                                    Points of interests can be set up, allowing the boids to interact accordingly through the input file. <br/>
+                                    Boids can be spawned in real time to show the robustness of the system. <br/>
+                                    Rely on the 3 main principles of separation, alignment and cohesion.
+								</p>
+                                <a href="https://github.com/MahadAdnanGul/OpenGL-BoidsFlockingSimulation">Github Link</a>
+                                <div class="image main video">
+									<iframe width="100%" height="540" src="https://www.youtube.com/embed/HaGQKvGjXK0?si=QsMHDKWrZxXYIEcH" allowfullscreen></iframe>
+								</div>
+                                <p>
+									<p class="headingtext">Heirarchical Objects:</p>
+                                    The following features are present: <br/>
+
+                                    Child parent hierarchy between torso and legs. <br/>
+                                    Legs consist of two joints that rotate somewhat naturally trying to mimic a walking. (Using forward kinematics) <br/>
+                                    Legs also move upwards at the start of every stride to prevent the moonwalk effect. <br/>
+                                    The movement animation is dependant upon the xz velocity of the character. <br/>
+                                    I added a backdrop and ground by loading a few textures. <br/>
+                                    Everything is built upon assignment 1, so the trajectory can be defined like before through keyframes using multiple types of interpolation techniques. <br/>
+								</p>
+                                <a href="https://github.com/MahadAdnanGul/OpenGL-HierarchicalObjects">Github Link</a>
+                                <div class="image main video">
+									<iframe width="100%" height="540" src="https://www.youtube.com/embed/o-k6lFzbSPA?si=kaPme26zxDN3hI_C" allowfullscreen></iframe>
+								</div>
+                                
+                        
+
+								
+
+					
+					
+						
+									
+									
+									
+									
+									
+									
+									
+									
+	
+								
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>Mahad Gul</li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
